@@ -1,0 +1,20 @@
+name: default_plugin_repro
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.4.0
+
+dependencies:
+  amplify_secure_storage: ^0.5.4
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
